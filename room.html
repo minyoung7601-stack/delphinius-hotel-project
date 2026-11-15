@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/roomtype.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/jquery-4.0.0.min.js"></script>
+    <script src="js/roomtype.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div>
+          <h1>
+            <a href="index.html">
+              <img src="img/logo_color.png" />
+            </a>
+          </h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="info.html"> ABOUT DELPHINIUS </a></li>
+            <li><a href="room.html"> ROOMS </a></li>
+            <li><a href="amenity.html"> AMENITIES </a></li>
+            <li><a href="meet.html"> WEDDING & MEETING </a></li>
+            <li><a href="leisure.html"> LEISURE </a></li>
+          </ul>
+          <div class="menubar">
+            <i class="fa-solid fa-water"></i>
+          </div>
+        </nav>
+      </header>
+      <div class="menu">
+        <i class="fa-solid fa-xmark"></i>
+        <div><a href="info.html">ABOUT DELPHINIUS</a></div>
+        <div><a href="room.html">ROOMS</a></div>
+        <div><a href="amenity.html">AMENITIES</a></div>
+        <div><a href="meet.html">WEDDING & MEETING</a></div>
+        <div><a href="leisure.html">LEISURE</a></div>
+      </div>
+    </div>
+
+    <div id="visual">
+      <img class="bg" src="img/visualbg.jpg" alt="비주얼배경" />
+      <img class="green" src="img/visualimg copy.png" alt="" />
+      <div class="text">
+        <h2>Our Accomodations</h2>
+        <h3>
+          <span>
+            최고의 편안함, 럭셔리함, 그리고 품격을 제공하기 위해 세심하게 설계된
+            우아한 객실과 스위트룸 컬렉션을 만나보세요</span
+          ><br />친밀한 디럭스 룸부터 넓은 주거용 스위트룸까지 모든 숙박 시설은
+          저희의 헌신을 반영합니다
+        </h3>
+        <ul class="wrap">
+          <li>
+            체크인 시간
+            <ul class="list">
+              <a href="#">
+                <div class="box">
+                  <p>Check In</p>
+                  <i class="fa-solid fa-sort-down"></i>
+                </div>
+              </a>
+              <li>14:00</li>
+              <li>16:00</li>
+              <li>18:00</li>
+              <li>20:00</li>
+            </ul>
+          </li>
+          <li>
+            체크아웃 시간
+            <ul class="list">
+              <a href="#">
+                <div class="box">
+                  <p>Check Out</p>
+                  <i class="fa-solid fa-sort-down"></i>
+                </div>
+              </a>
+              <li>10:00</li>
+              <li>11:00</li>
+              <li>12:00</li>
+              <li>13:00</li>
+            </ul>
+          </li>
+          <li>
+            어른
+            <ul class="list">
+              <a href="#">
+                <div class="box">
+                  <p>--</p>
+                  <i class="fa-solid fa-sort-down"></i>
+                </div>
+              </a>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6명 이상</li>
+            </ul>
+          </li>
+          <li>
+            아이
+            <ul class="list">
+              <a href="#">
+                <div class="box">
+                  <p>--</p>
+                  <i class="fa-solid fa-sort-down"></i>
+                </div>
+              </a>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6명 이상</li>
+            </ul>
+          </li>
+          <li>
+            방 갯수
+            <ul class="list">
+              <a href="#">
+                <div class="box">
+                  <p>--</p>
+                  <i class="fa-solid fa-sort-down"></i>
+                </div>
+              </a>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+            </ul>
+          </li>
+          <li class="reservation">
+            <a href="#">예약하기</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="container">
+      <div class="con1">
+        <div class="imgBox">
+          <ul class="large">
+            <li><img class="" src="img/sea1.jfif" /></li>
+            <li><img class="" src="img/sea2.jfif" /></li>
+            <li><img class="" src="img/sea3.webp" /></li>
+            <li><img class="" src="img/sea4.jpg" /></li>
+          </ul>
+
+          <ul class="small">
+            <li class="on">
+              <a href="#"><img src="img/sea1.jfif" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/sea2.jfif" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/sea3.webp" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/sea4.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="mo">
+          <img src="img/sea1.jfif" />
+        </div>
+        <div class="txtBox">
+          <h2>오션 스위트룸</h2>
+          <p class="room">
+            <span>Type</span><br />
+            방 4개 / 거실 1 / 주방1 / 다용도실 1 / 야외 테라스1<br />
+            고층에 위치한 객실로 조용하고 아늑한 시간을 즐기실 수 있습니다
+          </p>
+          <p class="room">
+            <span>Living & Comfort </span><br />
+            킹사이즈 침대(2개) 퀸사이즈 침대(2개) 슈퍼싱글 침대(1개)<br />
+            세탁기 / 건조기<br />
+            WI-FI / OTT 서비스
+          </p>
+          <a href="#" class="reserv">예약하기</a>
+          <ul>
+            <li>
+              <img src="img/icon_1.png" />
+              <h3>침대 타입</h3>
+              <p>2 BEDROOM / 킹</p>
+            </li>
+            <li>
+              <img src="img/icon_2.png" />
+              <h3>전망</h3>
+              <p>바다 (전망욕실)</p>
+            </li>
+            <li>
+              <img src="img/icon_3.png" />
+              <h3>투숙인원</h3>
+              <p>4명</p>
+            </li>
+            <li>
+              <img src="img/icon_4.png" />
+              <h3>객실 면적</h3>
+              <p>353 ㎡</p>
+            </li>
+            <li>
+              <img src="img/icon_5.png" />
+              <h3>체크인/아웃</h3>
+              <p>14:00 / 13:00</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="con2">
+        <div class="mo">
+          <img src="img/forest1.jfif" />
+        </div>
+        <div class="txtBox">
+          <h2>포레스트 스위트룸</h2>
+          <p class="room">
+            <span>Type</span><br />
+            방 4개 / 거실 1 / 주방1 / 다용도실 1 / 야외 테라스1<br />
+            산을 앞에 둔 특별한 분위기의 객실로<br />
+            싱그러운 자연 경관을 즐기실 수 있습니다
+          </p>
+          <p class="room">
+            <span>Living & Comfort </span><br />
+            킹사이즈 침대(2개) 퀸사이즈 침대(2개) 슈퍼싱글 침대(1개)<br />
+            세탁기 / 건조기<br />
+            WI-FI / OTT 서비스
+          </p>
+          <a href="#" class="reserv">예약하기</a>
+          <ul>
+            <li>
+              <img src="img/icon_1.png" />
+              <h3>침대 타입</h3>
+              <p>2 BEDROOM / 킹</p>
+            </li>
+            <li>
+              <img src="img/icon_2.png" />
+              <h3>전망</h3>
+              <p>산 (전망욕실)</p>
+            </li>
+            <li>
+              <img src="img/icon_3.png" />
+              <h3>투숙인원</h3>
+              <p>4명</p>
+            </li>
+            <li>
+              <img src="img/icon_4.png" />
+              <h3>객실 면적</h3>
+              <p>353 ㎡</p>
+            </li>
+            <li>
+              <img src="img/icon_5.png" />
+              <h3>체크인/아웃</h3>
+              <p>14:00 / 13:00</p>
+            </li>
+          </ul>
+        </div>
+        <div class="imgBox">
+          <ul class="large">
+            <li><img class="" src="img/forest1.jfif" /></li>
+            <li><img class="" src="img/forest2.webp" /></li>
+            <li><img class="" src="img/forest3.jfif" /></li>
+            <li><img class="" src="img/forest4.webp" /></li>
+          </ul>
+
+          <ul class="small">
+            <li class="on">
+              <a href="#"><img src="img/forest1.jfif" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/forest2.webp" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/forest3.jfif" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/forest4.webp" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="con3">
+        <div class="imgBox">
+          <ul class="large">
+            <li><img class="" src="img/family1.jpg" /></li>
+            <li><img class="" src="img/family2.jpg" /></li>
+            <li><img class="" src="img/family3.jpg" /></li>
+            <li><img class="" src="img/family4.jpg" /></li>
+          </ul>
+
+          <ul class="small">
+            <li class="on">
+              <a href="#"><img src="img/family1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/family2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/family3.jpg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/family4.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="mo">
+          <img class="mo" src="img/family1.jpg" />
+        </div>
+        <div class="txtBox">
+          <h2>패밀리룸</h2>
+          <p class="room">
+            <span>Type</span><br />
+            방 3개 / 거실 1 / 주방1 / 다용도실 1 / 야외 테라스1<br />
+            가족을 위한 편안하고 쾌적한 객실입니다.
+          </p>
+          <p class="room">
+            <span>Living & Comfort </span><br />
+            킹사이즈 침대(2개) 싱글사이즈 침대(2개) <br />
+            세탁기 / 건조기<br />
+            WI-FI / OTT 서비스
+          </p>
+          <a href="#" class="reserv">예약하기</a>
+          <ul>
+            <li>
+              <img src="img/icon_1.png" />
+              <h3>침대 타입</h3>
+              <p>2 BEDROOM / 킹</p>
+            </li>
+            <li>
+              <img src="img/icon_2.png" />
+              <h3>전망</h3>
+              <p>시티 (전망욕실)</p>
+            </li>
+            <li>
+              <img src="img/icon_3.png" />
+              <h3>투숙인원</h3>
+              <p>6명</p>
+            </li>
+            <li>
+              <img src="img/icon_4.png" />
+              <h3>객실 면적</h3>
+              <p>476 ㎡</p>
+            </li>
+            <li>
+              <img src="img/icon_5.png" />
+              <h3>체크인/아웃</h3>
+              <p>14:00 / 11:00</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="con4">
+        <div class="mo">
+          <img src="img/deluxe1.jpg" />
+        </div>
+        <div class="txtBox">
+          <h2>디럭스 스위트룸</h2>
+          <p class="room">
+            <span>Type</span><br />
+            방 1개 / 주방1 / 야외 테라스1<br />
+            델피니우스의 디럭스 스위트룸은<br />
+            일반 객실보다 더욱 넓고 쾌적한 공간을 제공하는 객실입니다.
+          </p>
+          <p class="room">
+            <span>Living & Comfort </span><br />
+            더블사이즈 침대(1개)<br />
+            세탁기 / 건조기<br />
+            WI-FI / OTT 서비스
+          </p>
+          <a href="#" class="reserv">예약하기</a>
+          <ul>
+            <li>
+              <img src="img/icon_1.png" />
+              <h3>침대 타입</h3>
+              <p>1 BEDROOM / 더블</p>
+            </li>
+            <li>
+              <img src="img/icon_2.png" />
+              <h3>전망</h3>
+              <p>시티</p>
+            </li>
+            <li>
+              <img src="img/icon_3.png" />
+              <h3>투숙인원</h3>
+              <p>2명</p>
+            </li>
+            <li>
+              <img src="img/icon_4.png" />
+              <h3>객실 면적</h3>
+              <p>160 ㎡</p>
+            </li>
+            <li>
+              <img src="img/icon_5.png" />
+              <h3>체크인/아웃</h3>
+              <p>14:00 / 10:00</p>
+            </li>
+          </ul>
+        </div>
+        <div class="imgBox">
+          <ul class="large">
+            <li><img class="" src="img/deluxe1.jpg" /></li>
+            <li><img class="" src="img/deluxe2.jpg" /></li>
+            <li><img class="" src="img/deluxe3.jpg" /></li>
+            <li><img class="" src="img/deluxe4.jpg" /></li>
+          </ul>
+
+          <ul class="small">
+            <li class="on">
+              <a href="#"><img src="img/deluxe1.jpg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/deluxe2.jpg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/deluxe3.jpg" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/deluxe4.jpg" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <ul class="left">
+        <li>010-1234-5678</li>
+        <li><a href="#">Instagram @DELPHINIUS_hotel</a></li>
+        <li>
+          델피니우스<br />주소 : 강원특별자치시 돌고래군 바다동 12-26<br />사업자등록번호
+          : 200-25-05296 &nbsp;| &nbsp;통신판매업 신고번호 :
+          제2026-서울강서-1404호<br />
+          <p>©2026. DELPHINIUS. All Rights Reserved.</p>
+        </li>
+      </ul>
+      <ul class="right">
+        <li><a href="#"> 개인정보취급방침 </a></li>
+        <li><a href="#"> 이용약관 </a></li>
+        <li><a href="#"> 사이트맵 </a></li>
+        <li><a href="#"> 마케팅/제휴 문의 </a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
